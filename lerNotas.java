@@ -20,4 +20,8 @@ public class lerNotas {
         JOptionPane.showMessageDialog(null, "Desenvolvido por bperotto");
     }
     
+    void suporte(){
+        System.out.println("Contate o suporte!");
+    }
+    
 }

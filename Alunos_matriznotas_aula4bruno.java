@@ -50,6 +50,6 @@ public class Alunos_matriznotas_aula4bruno {
         }
         
         nt.creditos();
-
+        nt.suporte();
     }
 }
