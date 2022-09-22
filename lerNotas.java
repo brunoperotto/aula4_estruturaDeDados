@@ -4,6 +4,8 @@
  */
 package com.mycompany.alunos_matriznotas_aula4bruno;
 
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author Usuario
@@ -12,6 +14,10 @@ public class lerNotas {
     
     float converter(String nota){
         return(Float.parseFloat(nota));
+    }
+    
+    void creditos(){
+        JOptionPane.showMessageDialog(null, "Desenvolvido por bperotto");
     }
     
 }

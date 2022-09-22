@@ -48,5 +48,8 @@ public class Alunos_matriznotas_aula4bruno {
             
             System.out.println("A média final foi: "+dadosEscolares[i][5]);
         }
+        
+        nt.creditos();
+
     }
 }
