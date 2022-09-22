@@ -20,14 +20,16 @@ public class Alunos_matriznotas_aula4bruno {
         String n;
         float soma = 0;
         
+        lerNotas nt = new lerNotas();
+        
         for(int i=0; i<3; i++){
             nome[i] = JOptionPane.showInputDialog("Insira o nome do primeiro aluno "+(i+1)+":");
             n = JOptionPane.showInputDialog("Insira o número da matrícula do "+nome[i]+":");
-            dadosEscolares[i][0] = Float.parseFloat(n);
+            dadosEscolares[i][0] = nt.converter(n);
             
             for(int j=1; j<5; j++){
                 n = JOptionPane.showInputDialog("Insira a nota "+j+":");
-                dadosEscolares[i][j] = Float.parseFloat(n);
+                dadosEscolares[i][j] = nt.converter(n);
             }
             for(int j=1; j<5; j++){
                 soma = soma+dadosEscolares[i][j];
